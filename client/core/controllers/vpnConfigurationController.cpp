@@ -42,6 +42,9 @@ ErrorCode VpnConfigurationsController::createProtocolConfigForContainer(const Se
         QJsonObject protocolConfig = containerConfig.value(ProtocolProps::protoToString(protocol)).toObject();
 
         auto configurator = createConfigurator(protocol);
+        if (!configurator) {
+            continue;
+        }
         QString protocolConfigString = configurator->createConfig(credentials, container, containerConfig, errorCode);
         if (errorCode != ErrorCode::NoError) {
             return errorCode;
