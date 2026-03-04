@@ -199,7 +199,7 @@
     <message>
         <location filename="../ui/models/api/apiServicesModel.cpp" line="116"/>
         <source>%1 $</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 $</translation>
     </message>
     <message>
         <location filename="../ui/models/api/apiServicesModel.cpp" line="118"/>
@@ -672,32 +672,32 @@ Thank you for staying with us!</source>
         <translation>Порт</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="418"/>
+        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="422"/>
         <source>Save</source>
         <translation>Сохранить</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="427"/>
+        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="431"/>
         <source>Save settings?</source>
         <translation>Сохранить настройки?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="428"/>
+        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="432"/>
         <source>Only the settings for this device will be changed</source>
         <translation>Будут изменены настройки только для этого устройства</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="429"/>
+        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="433"/>
         <source>Continue</source>
         <translation>Продолжить</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="430"/>
+        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="434"/>
         <source>Cancel</source>
         <translation>Отменить</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="434"/>
+        <location filename="../ui/qml/Pages2/PageProtocolAwgClientSettings.qml" line="438"/>
         <source>Unable change settings while there is an active connection</source>
         <translation>Невозможно изменить настройки во время активного соединения</translation>
     </message>
@@ -1651,7 +1651,7 @@ Thank you for staying with us!</source>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsAbout.qml" line="204"/>
         <source>mailto:support@amnezia.org</source>
-        <translation></translation>
+        <translation>mailto:support@amnezia.org</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsAbout.qml" line="211"/>
@@ -1775,72 +1775,72 @@ Thank you for staying with us!</source>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="22"/>
         <source>Windows</source>
-        <translation></translation>
+        <translation>Windows</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="29"/>
         <source>macOS</source>
-        <translation></translation>
+        <translation>macOS</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="36"/>
         <source>Android</source>
-        <translation></translation>
+        <translation>Android</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="43"/>
         <source>AndroidTV</source>
-        <translation></translation>
+        <translation>Android TV</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="50"/>
         <source>iOS</source>
-        <translation></translation>
+        <translation>iOS</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="57"/>
         <source>Linux</source>
-        <translation></translation>
+        <translation>Linux</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="64"/>
         <source>Routers</source>
-        <translation></translation>
+        <translation>Маршрутизаторы</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="23"/>
         <source>documentation/instructions/connect-amnezia-premium#windows</source>
-        <translation></translation>
+        <translation>documentation/instructions/connect-amnezia-premium#windows</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="30"/>
         <source>documentation/instructions/connect-amnezia-premium#macos</source>
-        <translation></translation>
+        <translation>documentation/instructions/connect-amnezia-premium#macos</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="37"/>
         <source>documentation/instructions/connect-amnezia-premium#android</source>
-        <translation></translation>
+        <translation>documentation/instructions/connect-amnezia-premium#android</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="44"/>
         <source>documentation/instructions/android_tv_connect/</source>
-        <translation></translation>
+        <translation>documentation/instructions/android_tv_connect/</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="51"/>
         <source>documentation/instructions/connect-amnezia-premium#ios</source>
-        <translation></translation>
+        <translation>documentation/instructions/connect-amnezia-premium#ios</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="58"/>
         <source>documentation/instructions/connect-amnezia-premium#linux</source>
-        <translation></translation>
+        <translation>documentation/instructions/connect-amnezia-premium#linux</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="65"/>
         <source>documentation/instructions/connect-amnezia-premium#routers</source>
-        <translation></translation>
+        <translation>documentation/instructions/connect-amnezia-premium#routers</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiInstructions.qml" line="101"/>
@@ -2111,7 +2111,7 @@ Thank you for staying with us!</source>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiSupport.qml" line="22"/>
         <source>Telegram</source>
-        <translation></translation>
+        <translation>Telegram</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiSupport.qml" line="30"/>
@@ -2141,7 +2141,7 @@ Thank you for staying with us!</source>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiSupport.qml" line="110"/>
         <source>Support tag</source>
-        <translation></translation>
+        <translation>Идентификатор поддержки</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiSupport.qml" line="120"/>
@@ -2272,12 +2272,12 @@ Thank you for staying with us!</source>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="180"/>
         <source>News Notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Уведомления о новостях</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="181"/>
-        <source>Show notification icon when has unread news</source>
-        <translation type="unfinished"></translation>
+        <source>Show a notification icon for unread news</source>
+        <translation>Показывать значок уведомления, если есть непрочитанные новости</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="221"/>
@@ -3115,17 +3115,17 @@ Thank you for staying with us!</source>
     <message>
         <location filename="../ui/qml/Pages2/PageSetupWizardApiServiceInfo.qml" line="113"/>
         <source>Charged to your Apple ID at confirmation. Renews automatically unless auto-renew is turned off at least 24 hours before period end. Manage in Apple ID settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Списание с Apple ID при подтверждении. Продление автоматическое, если автопродление не отключено минимум за 24 часа до окончания периода. Управление в настройках Apple ID.</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSetupWizardApiServiceInfo.qml" line="125"/>
         <source>Subscribe Now</source>
-        <translation type="unfinished"></translation>
+        <translation>Подписаться сейчас</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSetupWizardApiServiceInfo.qml" line="158"/>
         <source>By continuing, you agree to the &lt;a href=&quot;%1&quot; style=&quot;color: #FBB26A;&quot;&gt;Terms of Use&lt;/a&gt; and &lt;a href=&quot;%2&quot; style=&quot;color: #FBB26A;&quot;&gt;Privacy Policy&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Продолжая, вы соглашаетесь с &lt;a href=&quot;%1&quot; style=&quot;color: #FBB26A;&quot;&gt;Условиями использования&lt;/a&gt; и &lt;a href=&quot;%2&quot; style=&quot;color: #FBB26A;&quot;&gt;Политикой конфиденциальности&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSetupWizardApiServiceInfo.qml" line="186"/>
@@ -3697,7 +3697,7 @@ Thank you for staying with us!</source>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageShare.qml" line="270"/>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="566"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="572"/>
         <source>Users</source>
         <translation>Пользователи</translation>
     </message>
@@ -3707,72 +3707,72 @@ Thank you for staying with us!</source>
         <translation>Имя пользователя</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="582"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="588"/>
         <source>Search</source>
         <translation>Поиск</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="711"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="717"/>
         <source>Creation date: %1</source>
         <translation>Дата создания: %1</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="723"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="729"/>
         <source>Latest handshake: %1</source>
         <translation>Последнее рукопожатие: %1</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="735"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="741"/>
         <source>Data received: %1</source>
         <translation>Получено данных: %1</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="747"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="753"/>
         <source>Data sent: %1</source>
         <translation>Отправлено данных: %1</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="757"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="763"/>
         <source>Allowed IPs: %1</source>
         <translation>Разрешенные подсети: %1</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="772"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="778"/>
         <source>Rename</source>
         <translation>Переименовать</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="797"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="803"/>
         <source>Client name</source>
         <translation>Имя клиента</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="808"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="814"/>
         <source>Save</source>
         <translation>Сохранить</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="844"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="850"/>
         <source>Revoke</source>
         <translation>Отозвать</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="847"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="853"/>
         <source>Revoke the config for a user - %1?</source>
         <translation>Отозвать конфигурацию для пользователя - %1?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="848"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="854"/>
         <source>The user will no longer be able to connect to your server.</source>
         <translation>Пользователь больше не сможет подключаться к вашему серверу.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="849"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="855"/>
         <source>Continue</source>
         <translation>Продолжить</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="850"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="856"/>
         <source>Cancel</source>
         <translation>Отменить</translation>
     </message>
@@ -3795,7 +3795,7 @@ Thank you for staying with us!</source>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageShare.qml" line="220"/>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="548"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="554"/>
         <source>Share</source>
         <translation>Поделиться</translation>
     </message>
@@ -4241,7 +4241,7 @@ Thank you for staying with us!</source>
     <message>
         <location filename="../core/errorstrings.cpp" line="32"/>
         <source>Server error: Linux kernel is too old</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка сервера: ядро Linux слишком старое</translation>
     </message>
     <message>
         <location filename="../core/errorstrings.cpp" line="35"/>
@@ -5020,47 +5020,47 @@ FileZilla или другие SFTP-клиенты, а также смонтир�
 <context>
     <name>SitesController</name>
     <message>
-        <location filename="../ui/controllers/sitesController.cpp" line="24"/>
+        <location filename="../ui/controllers/sitesController.cpp" line="22"/>
         <source>Hostname not look like ip adress or domain name</source>
         <translation>Имя хоста не похоже на IP-адрес или доменное имя</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/sitesController.cpp" line="66"/>
+        <location filename="../ui/controllers/sitesController.cpp" line="52"/>
         <source>New site added: %1</source>
         <translation>Добавлен новый сайт: %1</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/sitesController.cpp" line="78"/>
+        <location filename="../ui/controllers/sitesController.cpp" line="61"/>
         <source>Site removed: %1</source>
         <translation>Сайт удален: %1</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/sitesController.cpp" line="85"/>
+        <location filename="../ui/controllers/sitesController.cpp" line="68"/>
         <source>Site list cleared!</source>
         <translation>Список сайтов очищен!</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/sitesController.cpp" line="92"/>
+        <location filename="../ui/controllers/sitesController.cpp" line="75"/>
         <source>Can&apos;t open file: %1</source>
         <translation>Невозможно открыть файл: %1</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/sitesController.cpp" line="98"/>
+        <location filename="../ui/controllers/sitesController.cpp" line="81"/>
         <source>Failed to parse JSON data from file: %1</source>
         <translation>Не удалось разобрать JSON-данные из файла: %1</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/sitesController.cpp" line="103"/>
+        <location filename="../ui/controllers/sitesController.cpp" line="86"/>
         <source>The JSON data is not an array in file: %1</source>
         <translation>JSON-данные не являются массивом в файле: %1</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/sitesController.cpp" line="133"/>
+        <location filename="../ui/controllers/sitesController.cpp" line="114"/>
         <source>Import completed</source>
         <translation>Импорт завершен</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/sitesController.cpp" line="152"/>
+        <location filename="../ui/controllers/sitesController.cpp" line="133"/>
         <source>Export completed</source>
         <translation>Экспорт завершен</translation>
     </message>
@@ -5168,244 +5168,6 @@ FileZilla или другие SFTP-клиенты, а также смонтир�
         <location filename="../containers/containers_defs.cpp" line="373"/>
         <source>AmneziaWG protocol will be installed. It provides high connection speed and ensures stable operation even in the most challenging network conditions.</source>
         <translation>Будет установлен протокол AmneziaWG. Он обеспечивает высокую скорость соединения и гарантирует стабильную работу даже в самых сложных условиях.</translation>
-    </message>
-</context>
-<context>
-    <name>main</name>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/quickGamepad/qml/main.qml" line="62"/>
-        <source>QtGamepad Example</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/mouseItem/qml/main.qml" line="59"/>
-        <source>Gamepad Mouse Item</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/mouseItem/qml/main.qml" line="64"/>
-        <source>Simulate mouse input using a Gamepad</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/keyNavigation/qml/main.qml" line="60"/>
-        <source>Gamepad Key Navigation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/keyNavigation/qml/main.qml" line="80"/>
-        <source>Test key events from Gamepad</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="48"/>
-        <source>Configure gamepad</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="95"/>
-        <source>Gamepad configuration Utility</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="102"/>
-        <source>Connected gamepads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="112"/>
-        <source>Start button cancel&apos;s current configuration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="132"/>
-        <source>Configure Gamepad Buttons</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="139"/>
-        <source>ButtonA</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="144"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="167"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="189"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="211"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="233"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="255"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="277"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="299"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="321"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="343"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="365"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="387"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="409"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="431"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="454"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="476"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="498"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="520"/>
-        <source>DOWN</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="144"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="167"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="189"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="211"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="233"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="255"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="277"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="299"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="321"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="343"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="365"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="387"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="409"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="431"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="454"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="476"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="498"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="520"/>
-        <source>UP</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="150"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="172"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="194"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="216"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="238"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="260"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="282"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="304"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="326"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="348"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="370"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="392"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="414"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="436"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="458"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="480"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="502"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="524"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="556"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="580"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="604"/>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="628"/>
-        <source>Configure</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="163"/>
-        <source>ButtonB</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="185"/>
-        <source>ButtonX</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="207"/>
-        <source>ButtonY</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="229"/>
-        <source>ButtonStart</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="251"/>
-        <source>ButtonSelect</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="273"/>
-        <source>Button L1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="295"/>
-        <source>Button R1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="317"/>
-        <source>Button L2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="339"/>
-        <source>Button R2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="361"/>
-        <source>Button L3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="383"/>
-        <source>Button R3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="405"/>
-        <source>Button Up</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="427"/>
-        <source>Button Down</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="449"/>
-        <source>Button Left</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="471"/>
-        <source>Button Right</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="493"/>
-        <source>Button Center</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="515"/>
-        <source>Button Guide</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="537"/>
-        <source>Gamepad Axies</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="545"/>
-        <source>AxisLeftX</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="569"/>
-        <source>AxisLeftY</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="593"/>
-        <source>AxisRightX</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../3rd/qtgamepad/examples/gamepad/configureButtons/main.qml" line="617"/>
-        <source>AxisRightY</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
