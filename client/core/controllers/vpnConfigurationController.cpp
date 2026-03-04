@@ -96,9 +96,7 @@ QJsonObject VpnConfigurationsController::createVpnConfiguration(const QPair<QStr
                 containerConfig.value(ProtocolProps::protoToString(proto)).toObject().value(config_key::last_config).toString();
 
         auto configurator = createConfigurator(proto);
-        if (configurator) {
-            protocolConfigString = configurator->processConfigWithLocalSettings(dns, isApiConfig, protocolConfigString);
-        }
+        protocolConfigString = configurator->processConfigWithLocalSettings(dns, isApiConfig, protocolConfigString);
 
         QJsonObject vpnConfigData = QJsonDocument::fromJson(protocolConfigString.toUtf8()).object();
         if (ContainerProps::isAwgContainer(container) || container == DockerContainer::WireGuard) {

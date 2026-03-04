@@ -14,8 +14,7 @@ struct Hysteria2Config: Decodable {
     let dns2: String?
 
     enum CodingKeys: String, CodingKey {
-        case server = "hostName"
-        case port, password, obfs, sni, insecure
+        case server, port, password, obfs, sni, insecure
         case obfsPassword = "obfs_password"
         case upMbps = "up_mbps"
         case downMbps = "down_mbps"
