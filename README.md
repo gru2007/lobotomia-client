@@ -114,8 +114,8 @@ gomobile init
 
 5. Build the project
 ```bash
-export QT_BIN_DIR="<PATH-TO-QT-FOLDER>/Qt/<QT-VERSION>/ios/bin"
-export QT_MACOS_ROOT_DIR="<PATH-TO-QT-FOLDER>/Qt/<QT-VERSION>/macos"
+export QT_BIN_DIR="/Users/ruslan/Qt/6.10.2/ios/bin"
+export QT_MACOS_ROOT_DIR="/Users/ruslan/Qt/6.10.2/macos"
 export QT_IOS_BIN=$QT_BIN_DIR
 export PATH=$PATH:~/go/bin
 mkdir build-ios

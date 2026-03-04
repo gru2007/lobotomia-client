@@ -8,7 +8,7 @@
 	<string>AmneziaVPNNetworkExtension</string>
 
 	<key>CFBundleIdentifier</key>
-	<string>org.amnezia.AmneziaVPN.network-extension</string>
+	<string>tech.artemevsoft.amnezia.network-extension</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -38,9 +38,9 @@
 	</dict>
 
 	<key>com.wireguard.ios.app_group_id</key>
-	<string>group.org.amnezia.AmneziaVPN</string>
+	<string>group.tech.artemevsoft.amnezia</string>
 
 	<key>com.wireguard.macos.app_group_id</key>
-	<string>${BUILD_VPN_DEVELOPMENT_TEAM}.group.org.amnezia.AmneziaVPN</string>
+	<string>${BUILD_VPN_DEVELOPMENT_TEAM}.group.tech.artemevsoft.amnezia</string>
 </dict>
 </plist>
