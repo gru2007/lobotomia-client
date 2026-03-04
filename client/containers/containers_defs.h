@@ -25,7 +25,6 @@ namespace amnezia
             Ipsec,
             Xray,
             SSXray,
-            Hysteria2,
 
             // non-vpn
             TorWebSite,

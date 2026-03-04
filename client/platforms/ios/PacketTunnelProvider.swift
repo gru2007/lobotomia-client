@@ -6,7 +6,7 @@ import Darwin
 import OpenVPNAdapter
 
 enum TunnelProtoType: String {
-  case wireguard, openvpn, xray, hysteria2
+  case wireguard, openvpn, xray
 
 }
 
@@ -188,8 +188,6 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
                 protoType = .wireguard
             } else if (providerConfiguration?[Constants.xrayConfigKey] as? Data) != nil {
                 protoType = .xray
-            } else if (providerConfiguration?[Constants.hysteria2ConfigKey] as? Data) != nil {
-                protoType = .hysteria2
             }
         }
 
@@ -211,8 +209,7 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
             startOpenVPN(completionHandler: completionHandler)
         case .xray:
             startXray(completionHandler: completionHandler)
-        case .hysteria2:
-            startHysteria2(completionHandler: completionHandler)
+
         }
     }
 
@@ -232,8 +229,6 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
                         completionHandler: completionHandler)
         case .xray:
             stopXray(completionHandler: completionHandler)
-        case .hysteria2:
-            stopHysteria2(completionHandler: completionHandler)
         }
     }
   
@@ -249,9 +244,7 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
         case .openvpn:
             handleOpenVPNStatusMessage(messageData, completionHandler: completionHandler)
         case .xray:
-            break
-        case .hysteria2:
-            break
+            break;
         }
     }
   
