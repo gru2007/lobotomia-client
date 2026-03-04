@@ -1,6 +1,6 @@
 module github.com/amnezia-vpn/hysteria2-apple
 
-go 1.21
+go 1.24
 
 require (
 	github.com/apernet/hysteria/core/v2 v2.6.1
