@@ -69,18 +69,32 @@ def parse_clash_yaml(text: str) -> list[dict]:
 
 
 def build_amnezia_json(proxy: dict, dns1: str, dns2: str) -> dict:
-    proto_cfg = {
-        "port":      str(proxy['port']),
+    # last_config is embedded as a JSON string inside the "Hysteria2" container object.
+    # Keys and types must match what setupHysteria2() in ios_controller.mm reads and
+    # what Hysteria2Config.swift decodes (port=Int, up_mbps/down_mbps=Int, insecure=Bool).
+    last_config = {
+        "hostName":  proxy['server'],      # read by setupHysteria2 as "hostName" → Swift server
+        "port":      proxy['port'],        # Int – Swift decodes as Int
         "password":  proxy['password'],
         "sni":       proxy['sni'] or proxy['server'],
         "insecure":  proxy['skip_cert_verify'],
-        "up_mbps":   str(proxy['up']),
-        "down_mbps": str(proxy['down']),
+        "up_mbps":   proxy['up'],          # Int
+        "down_mbps": proxy['down'],        # Int
+        "isThirdPartyConfig": True,
     }
     if proxy['obfs']:
-        proto_cfg['obfs'] = proxy['obfs']
+        last_config['obfs'] = proxy['obfs']
     if proxy['obfs_password']:
-        proto_cfg['obfs_password'] = proxy['obfs_password']
+        last_config['obfs_password'] = proxy['obfs_password']
+
+    # Outer container config: "Hysteria2" key = protoToString(Proto::Hysteria2)
+    # Must contain "last_config" (JSON string) so that isProtocolConfigExists() returns
+    # true and the app skips the self-hosted SSH setup flow.
+    hysteria2_container = {
+        "isThirdPartyConfig": True,
+        "port": str(proxy['port']),       # kept for desktop hysteria2protocol.cpp (reads as string)
+        "last_config": json.dumps(last_config, ensure_ascii=False, separators=(',', ':')),
+    }
 
     return {
         "hostName": proxy['server'],
@@ -89,7 +103,7 @@ def build_amnezia_json(proxy: dict, dns1: str, dns2: str) -> dict:
         "containers": [
             {
                 "container": "amnezia-hysteria2",
-                "Hysteria2_config_data": proto_cfg,
+                "Hysteria2": hysteria2_container,
             }
         ],
         "defaultContainer": "amnezia-hysteria2",
