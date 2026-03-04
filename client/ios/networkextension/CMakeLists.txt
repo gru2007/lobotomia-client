@@ -132,5 +132,5 @@ target_link_libraries(networkextension PRIVATE ${CLIENT_ROOT_DIR}/3rd-prebuilt/3
 target_link_libraries(networkextension PRIVATE ${CLIENT_ROOT_DIR}/3rd-prebuilt/3rd-prebuilt/xray/HevSocks5Tunnel.xcframework)
 
 # Hysteria2 client library — pre-built from client/3rd/hysteria2-apple using gomobile
-# Build: cd client/3rd/hysteria2-apple && go mod download && ./build_ios.sh
+# Build: cd client/3rd/hysteria2-apple && ./build-ios.sh
 target_link_libraries(networkextension PRIVATE ${CLIENT_ROOT_DIR}/3rd-prebuilt/3rd-prebuilt/hysteria2/Hysteria2.xcframework)
