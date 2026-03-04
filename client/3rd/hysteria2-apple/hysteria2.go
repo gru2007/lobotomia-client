@@ -24,6 +24,7 @@ import "C"
 import (
 	"bytes"
 	"context"
+	"encoding/base64"
 	"encoding/binary"
 	"fmt"
 	"io"
@@ -86,6 +87,38 @@ func LibHysteria2RunClient(configPath *C.char) {
 
 	var cfg clientYAML
 	if err := yaml.Unmarshal(data, &cfg); err != nil {
+		return
+	}
+
+	runClient(ctx, cfg)
+}
+
+// LibHysteria2RunClientYAML starts the Hysteria2 client from a YAML string
+// (not a file path). Use this when the config is embedded directly in the app.
+//
+// The yamlConfig parameter is a plain UTF-8 YAML string, or a base64-encoded
+// YAML string produced by the hy2cfg encoder utility — the function detects
+// which format is used automatically.
+//
+//export LibHysteria2RunClientYAML
+func LibHysteria2RunClientYAML(yamlConfig *C.char) {
+	mu.Lock()
+	if cancelFunc != nil {
+		cancelFunc()
+	}
+	ctx, cancel := context.WithCancel(context.Background())
+	cancelFunc = cancel
+	mu.Unlock()
+
+	raw := []byte(C.GoString(yamlConfig))
+
+	// Auto-detect base64: try to decode, fall back to raw YAML.
+	if dec, err := base64.StdEncoding.DecodeString(string(raw)); err == nil {
+		raw = dec
+	}
+
+	var cfg clientYAML
+	if err := yaml.Unmarshal(raw, &cfg); err != nil {
 		return
 	}
 
