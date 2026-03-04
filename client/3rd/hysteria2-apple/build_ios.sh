@@ -43,7 +43,7 @@ build_slice() {
     GOARCH="$goarch" \
     CGO_CFLAGS="-isysroot $sdk_path -arch $clang_arch -target $target -mios-version-min=$MIN_IOS_VERSION" \
     CGO_LDFLAGS="-isysroot $sdk_path -arch $clang_arch -target $target" \
-    go build -buildmode=c-archive -o "$SCRIPT_DIR/$out" .
+    go build -mod=mod -buildmode=c-archive -o "$SCRIPT_DIR/$out" .
 
     echo "Built $out"
 }
