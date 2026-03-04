@@ -26,7 +26,7 @@ Prerequisites:
 ```bash
 cd client/3rd/hysteria2-apple
 go mod download
-./build-ios.sh
+./build_ios.sh
 ```
 
 Output: `client/3rd-prebuilt/3rd-prebuilt/hysteria2/Hysteria2.xcframework`
